@@ -28,7 +28,7 @@ namespace ChocolateBarDebugging
             Calories = calories;
         }
 
-        public void eat()
+        public int eat()
         {
             Console.WriteLine("Yum! You just ate a  + Brand + " " + Name);
         }
